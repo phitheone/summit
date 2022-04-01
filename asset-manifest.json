@@ -1,14 +1,34 @@
 {
   "files": {
-    "main.css": "/summit/static/css/main.f615c45f.css",
-    "main.js": "/summit/static/js/main.86a875f7.js",
-    "static/media/logo.svg": "/summit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/summit/static/css/main.2f7f60dc.css",
+    "main.js": "/summit/static/js/main.20104837.js",
+    "static/media/meme-back.png": "/summit/static/media/meme-back.01ce43eec21e8b1cabed.png",
+    "static/media/meme-pyramid.png": "/summit/static/media/meme-pyramid.bbc4955870af59738f8b.png",
+    "static/media/Summit-Title-recortado.png": "/summit/static/media/Summit-Title-recortado.ead452b6228a1b238a7c.png",
+    "static/media/meme-spiral.png": "/summit/static/media/meme-spiral.ddecf203e7093e09b1cf.png",
+    "static/media/ojos-lagarto-muchos.png": "/summit/static/media/ojos-lagarto-muchos.5abc815c41512734a29c.png",
+    "static/media/meme-lagarto.png": "/summit/static/media/meme-lagarto.f7a3731a23ea0c62e1b0.png",
+    "static/media/ojos-lagarto-1.png": "/summit/static/media/ojos-lagarto-1.b07d221d7f901fdab3f1.png",
+    "static/media/ojos-lagarto-3.png": "/summit/static/media/ojos-lagarto-3.3ec11117bab2d1ece23e.png",
+    "static/media/ojos-lagarto-2.png": "/summit/static/media/ojos-lagarto-2.23b79a4fb3324a37f1ca.png",
+    "static/media/lagarto8.png": "/summit/static/media/lagarto8.47e1df88a67f399b9687.png",
+    "static/media/lagarto10.png": "/summit/static/media/lagarto10.8c076877ac61c3f146af.png",
+    "static/media/lagarto6.png": "/summit/static/media/lagarto6.744ed7cc399ab131b7d4.png",
+    "static/media/lagarto9.png": "/summit/static/media/lagarto9.e5a0f870b1153e9617ef.png",
+    "static/media/lagarto3.png": "/summit/static/media/lagarto3.9f5817cf12fa6b60a109.png",
+    "static/media/lagarto2.png": "/summit/static/media/lagarto2.5b0d5a7e0812e5b70b6d.png",
+    "static/media/lagarto5.png": "/summit/static/media/lagarto5.8ccb18a796cfb08cb29d.png",
+    "static/media/lagarto7.png": "/summit/static/media/lagarto7.c5145a89b82944b8a3b6.png",
+    "static/media/lagarto4.png": "/summit/static/media/lagarto4.527478d94641a30cfd71.png",
+    "static/media/lagarto1.png": "/summit/static/media/lagarto1.3405d874dd738fdd7838.png",
+    "static/media/discord.svg": "/summit/static/media/discord.92fae2d3e62d5c1ea29a8216237a6c21.svg",
+    "static/media/twitter.svg": "/summit/static/media/twitter.88145f5a5efc189af7c91e0ba0dede8e.svg",
     "index.html": "/summit/index.html",
-    "main.f615c45f.css.map": "/summit/static/css/main.f615c45f.css.map",
-    "main.86a875f7.js.map": "/summit/static/js/main.86a875f7.js.map"
+    "main.2f7f60dc.css.map": "/summit/static/css/main.2f7f60dc.css.map",
+    "main.20104837.js.map": "/summit/static/js/main.20104837.js.map"
   },
   "entrypoints": [
-    "static/css/main.f615c45f.css",
-    "static/js/main.86a875f7.js"
+    "static/css/main.2f7f60dc.css",
+    "static/js/main.20104837.js"
   ]
 }
