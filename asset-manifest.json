@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/summit/static/css/main.2f7f60dc.css",
-    "main.js": "/summit/static/js/main.9cf4ae4a.js",
+    "main.css": "/summit/static/css/main.659a632c.css",
+    "main.js": "/summit/static/js/main.f68d6007.js",
     "static/media/meme-back.png": "/summit/static/media/meme-back.01ce43eec21e8b1cabed.png",
     "static/media/meme-pyramid.png": "/summit/static/media/meme-pyramid.bbc4955870af59738f8b.png",
     "static/media/Summit-Title-recortado.png": "/summit/static/media/Summit-Title-recortado.ead452b6228a1b238a7c.png",
@@ -24,11 +24,11 @@
     "static/media/discord.svg": "/summit/static/media/discord.92fae2d3e62d5c1ea29a8216237a6c21.svg",
     "static/media/twitter.svg": "/summit/static/media/twitter.88145f5a5efc189af7c91e0ba0dede8e.svg",
     "index.html": "/summit/index.html",
-    "main.2f7f60dc.css.map": "/summit/static/css/main.2f7f60dc.css.map",
-    "main.9cf4ae4a.js.map": "/summit/static/js/main.9cf4ae4a.js.map"
+    "main.659a632c.css.map": "/summit/static/css/main.659a632c.css.map",
+    "main.f68d6007.js.map": "/summit/static/js/main.f68d6007.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f7f60dc.css",
-    "static/js/main.9cf4ae4a.js"
+    "static/css/main.659a632c.css",
+    "static/js/main.f68d6007.js"
   ]
 }
