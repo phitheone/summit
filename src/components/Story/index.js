@@ -25,17 +25,34 @@ const Story = () => {
           Our History is <SSpan>your</SSpan> History...
         </StoryTitle>
         <StoryP>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
-          If you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing hidden in the middle of text. All
-          the Lorem Ipsum generators on the Internet tend to repeat predefined
-          chunks as necessary, making this the first true generator on the
-          Internet. It uses a dictionary of over 200 Latin words, combined with
-          a handful of model sentence structures, to generate Lorem Ipsum which
-          looks reasonable. The generated Lorem Ipsum is therefore always free
-          from repetition, injected humour, or non-characteristic words etc.
+          We have been watching humanity since the beginning. Guiding it.
+          Nurturing it. <SSpan>Controlling</SSpan> it. Ha! We even convinced you
+          that dinosaurs are extinct. Well... they are, but that's besides the
+          point.
+        </StoryP>
+        <StoryP>
+          We’re the primary source of structure, order and fashion throughout
+          history for all mankind. We rule from the shadows. We are powerful. We
+          know everything... <br />
+          ...and we are <SSpan>broke</SSpan>.
+        </StoryP>
+        <StoryP>
+          Because of some definitely not wrong decisions in the stock market,
+          that weren’t our own fault at all, now we face total bankruptcy.
+        </StoryP>
+        <StoryP>
+          BUT! On the bright side of things you can help us recover our
+          subjugation of... well, you. Please, don’t go away yet, because if you
+          help us, you’ll be the proud owner of a{" "}
+          <SSpan>
+            World Ownership Reacquisition Share Trading (W.O.R.S.T.)
+          </SSpan>{" "}
+          plan share, with your own personal Summit Oversee... Advisor! <br />{" "}
+          Make your <SSpan>W.O.R.S.T.</SSpan> purchase <SSpan>Today!</SSpan>
+        </StoryP>
+        <StoryP>
+          But before you help us with our money problem, you might need to know
+          more. You see, it all began with a <SSpan>whip...</SSpan>
         </StoryP>
         <Button>Learn More...</Button>
       </StoryTextContainer>

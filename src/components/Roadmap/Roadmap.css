@@ -1,0 +1,79 @@
+.RMCont {
+  background-image: url(../../images/Roadmap/pizarra.jpg);
+  border: solid rgb(26, 91, 152) 0.5rem;
+  padding: 3rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  max-width: 1500px;
+
+  /* background-repeat: no-repeat; */
+}
+
+@media only screen and (max-width: 768px) {
+  .RMCont {
+    padding: 0%;
+    width: 110%;
+    margin-left: -5%;
+  }
+}
+
+.LMtitle {
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+  font-family: "Grape Nuts", cursive;
+  color: rgb(255, 27, 27);
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.TextContent {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  background-image: url(../../images/Roadmap/postit.png);
+  font-family: "Grape Nuts", cursive;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 380px;
+  font-family: "Grape Nuts", cursive;
+  color: #000;
+  font-weight: bolder;
+
+  /*border: solid rgb(152, 26, 123) 0.5rem;*/
+}
+
+.Imagenes {
+  height: 400px;
+  /*margin-left: 25%;*/
+  /*margin-right: auto;*/
+}
+
+.foto1 {
+  transform: rotate(8deg);
+}
+
+.foto2 {
+  transform: rotate(-3deg);
+}
+
+.foto3 {
+  transform: rotate(4deg);
+}
+
+.foto4 {
+  transform: rotate(-5deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .TextContent {
+    width: 200px;
+    background-position: center;
+  }
+
+  .Imagenes {
+    height: auto;
+    width: 200px;
+  }
+}

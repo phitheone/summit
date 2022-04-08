@@ -7,8 +7,13 @@ import {
   SidebarMenu,
   SidebarLink,
   SideBtnWrap,
-  SidebarRoute,
+  SidebarBtn,
+  SideSocialWrap,
+  SideA,
+  SideSocial,
 } from "./SidebarElements";
+import imgDiscord from "../../images/General/discord.svg";
+import imgTwitter from "../../images/General/twitter.svg";
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -32,8 +37,18 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="buy">Buy on Magic Eden</SidebarRoute>
+          <SideA href="https://magiceden.io/" target="_blank">
+            <SidebarBtn>Buy on Magic Eden</SidebarBtn>
+          </SideA>
         </SideBtnWrap>
+        <SideSocialWrap>
+          <SideA href="https://discord.com/" target="_blank">
+            <SideSocial src={imgDiscord} />
+          </SideA>
+          <SideA href="https://twitter.com/" target="_blank">
+            <SideSocial src={imgTwitter} />
+          </SideA>
+        </SideSocialWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

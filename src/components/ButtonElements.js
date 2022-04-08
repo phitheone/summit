@@ -17,6 +17,10 @@ export const Button = styled(Link)`
   align-items: center;
   transition: all 0.2s ease-in-out;
 
+  /* @media screen (max-width: 768px) {
+
+  } */
+
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#fca102" : "#fca102")};

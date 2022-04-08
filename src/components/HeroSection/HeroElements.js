@@ -10,7 +10,9 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index: 1;
 
-  /* add: before styles */
+  @media screen and (max-width: 768px) {
+    height: 600px;
+  }
 `;
 
 export const HeroBg = styled.div`
@@ -140,15 +142,18 @@ const kfsetBanner = keyframes`
 
 export const HeroBanner = styled.img`
   position: relative;
-  width: 100%;
+  width: 80%;
   animation: ${kfsetBanner} 3s ease-in-out infinite;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const HeroP = styled.p`
   margin-top: 10px;
   color: #fca102;
   font-size: 45px;
-  text-align: left;
+  text-align: center;
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
@@ -183,4 +188,8 @@ export const HerobtnWrapper = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
