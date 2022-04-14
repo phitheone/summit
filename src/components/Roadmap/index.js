@@ -20,7 +20,7 @@ import images from "./RoadmapImages";
 
 const Roadmap = () => {
   return (
-    <RoadmapContainer>
+    <RoadmapContainer id="roadmap">
       <RMTitleContainer>
         <RMH1>Our Roadmap...</RMH1>
         <RMH2>

@@ -40,7 +40,7 @@ const Gallery = () => {
 
   return (
     <>
-      <GalleryContainer>
+      <GalleryContainer id="gallery">
         <GalleryTitleContainer>
           <GalleryH1>
             Meet Your <GallerySpan>Secret</GallerySpan> Overlords:
@@ -94,12 +94,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-/*
-{images.map((image) => {
-  return (
-    <motion.div className="item" key={image}>
-      <img src={image} alt="" />
-    </motion.div>
-  );
-})}
-*/

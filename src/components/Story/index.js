@@ -11,7 +11,7 @@ import {
   SMIluminati,
   SMSpiral,
 } from "./StoryElements";
-import { Button } from "../ButtonElements";
+import { ButtonR } from "../ButtonElements";
 import imgArena from "../../images/Story/meme-back.png";
 import imgPiramide from "../../images/Story/meme-pyramid.png";
 import imgIluminati from "../../images/Story/meme-lagarto.png";
@@ -19,7 +19,7 @@ import imgEspiral from "../../images/Story/meme-spiral.png";
 
 const Story = () => {
   return (
-    <StoryContainer>
+    <StoryContainer id="lore">
       <StoryTextContainer>
         <StoryTitle>
           Our History is <SSpan>your</SSpan> History...
@@ -54,7 +54,7 @@ const Story = () => {
           But before you help us with our money problem, you might need to know
           more. You see, it all began with a <SSpan>whip...</SSpan>
         </StoryP>
-        <Button>Learn More...</Button>
+        <ButtonR to="/summit/story">Learn More...</ButtonR>
       </StoryTextContainer>
       <StoryMeme>
         <SMBg src={imgArena} />

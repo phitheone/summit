@@ -17,7 +17,7 @@ import {
 
 const Team = () => {
   return (
-    <TeamContainer>
+    <TeamContainer id="team">
       <TeamTitle>
         <TeamH1>
           Meet our <TeamSpan>Creators</TeamSpan>

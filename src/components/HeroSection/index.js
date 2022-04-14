@@ -17,11 +17,11 @@ import {
   HerobtnWrapper,
   HeroSpan,
 } from "./HeroElements";
-import { Button } from "../ButtonElements";
+import { ButtonA, ButtonR } from "../ButtonElements";
 
 const HeroSection = () => {
   return (
-    <HeroContainer>
+    <HeroContainer id="hero">
       <HeroBg>
         <AnimationBg1 src={img1} />
         <AnimationBg2 src={img2} />
@@ -35,8 +35,13 @@ const HeroSection = () => {
           But mostly, they have <HeroSpan>FUN!</HeroSpan>
         </HeroP>
         <HerobtnWrapper>
-          <Button>Join The Gang</Button>
-          <Button>Buy on Magic Eden</Button>
+          <ButtonA href="https://discord.com/" target="_blank">
+            Join The Gang
+          </ButtonA>
+          <ButtonA href="https://magiceden.io/" target="_blank">
+            Buy on Magic Eden
+          </ButtonA>
+          <ButtonR to="/summit/rarity">TEMP: RARITY</ButtonR>
         </HerobtnWrapper>
       </HeroContent>
     </HeroContainer>

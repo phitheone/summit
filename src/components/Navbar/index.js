@@ -1,4 +1,6 @@
 import React from "react";
+import { Link as LinkR, useLocation } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 import imgSummit from "../../images/General/Summit-Title-recortado.png";
 import imgDiscord from "../../images/General/discord.svg";
@@ -18,29 +20,75 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
+  const currentUrl = useLocation().pathname;
+
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavA href="/">
-            <NavLogo src={imgSummit} />
-          </NavA>
-
+          <LinkS
+            to="hero"
+            smooth="true"
+            duration="500"
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            <LinkR to="/summit">
+              <NavLogo src={imgSummit} />
+            </LinkR>
+          </LinkS>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
-          <NavMenu>
+          <NavMenu currentUrl={currentUrl}>
             <NavItem>
-              <NavLinks to="galery">GALERY</NavLinks>
+              <NavLinks
+                to="gallery"
+                smooth="true"
+                duration="500"
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                GALLERY
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="lore">STORY</NavLinks>
+              <NavLinks
+                to="lore"
+                smooth="true"
+                duration="500"
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                STORY
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Roadmap">ROADMAP</NavLinks>
+              <NavLinks
+                to="roadmap"
+                smooth="true"
+                duration="500"
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                ROADMAP
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Team">OUR TEAM</NavLinks>
+              <NavLinks
+                to="team"
+                smooth="true"
+                duration="500"
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                OUR TEAM
+              </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>

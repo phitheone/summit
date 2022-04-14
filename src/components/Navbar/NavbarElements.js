@@ -84,7 +84,10 @@ export const MobileIcon = styled.div`
 `;
 
 export const NavMenu = styled.ul`
-  display: flex;
+  display: ${(props) =>
+    props.currentUrl === "/summit" || props.currentUrl === "/summit/"
+      ? "flex"
+      : "none"};
   align-items: center;
   list-style: none;
   text-align: center;
@@ -107,9 +110,17 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  border-bottom: 4px solid transparent;
+  transition: all 0.5s ease-in-out;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 4px solid #01bf71;
+  }
+
+  &:hover {
+    transition: all 0.5s ease-in-out;
+    color: #0f0;
+    //border-bottom: 4px solid #0f0;
   }
 `;
 

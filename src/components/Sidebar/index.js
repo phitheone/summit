@@ -23,16 +23,40 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="galery" onClick={toggle}>
+          <SidebarLink
+            to="gallery"
+            smooth="true"
+            duration="500"
+            offset={-80}
+            onClick={toggle}
+          >
             GALERY
           </SidebarLink>
-          <SidebarLink to="Story" onClick={toggle}>
+          <SidebarLink
+            to="lore"
+            smooth="true"
+            duration="500"
+            offset={-80}
+            onClick={toggle}
+          >
             STORY
           </SidebarLink>
-          <SidebarLink to="Roadmap" onClick={toggle}>
+          <SidebarLink
+            to="roadmap"
+            smooth="true"
+            duration="500"
+            offset={-80}
+            onClick={toggle}
+          >
             ROADMAP
           </SidebarLink>
-          <SidebarLink to="team" onClick={toggle}>
+          <SidebarLink
+            to="team"
+            smooth="true"
+            duration="500"
+            offset={-80}
+            onClick={toggle}
+          >
             OUR TEAM
           </SidebarLink>
         </SidebarMenu>
