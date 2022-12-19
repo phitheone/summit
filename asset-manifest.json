@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d93c7405.css",
-    "main.js": "/static/js/main.c890104c.js",
+    "main.js": "/static/js/main.82f1ac21.js",
     "static/media/meme-back.png": "/static/media/meme-back.01ce43eec21e8b1cabed.png",
     "static/media/01.png": "/static/media/01.d3578aa4088702c31693.png",
     "static/media/03.png": "/static/media/03.2503b9ac22db71c87949.png",
@@ -17,8 +17,8 @@
     "static/media/nessie.png": "/static/media/nessie.cd21fb23ce6a86d406cb.png",
     "static/media/02.png": "/static/media/02.996be8f9ba5efc6cf313.png",
     "static/media/ufo.png": "/static/media/ufo.c6bad0d75a91f78b5829.png",
-    "static/media/Summit-Title-recortado.png": "/static/media/Summit-Title-recortado.ead452b6228a1b238a7c.png",
     "static/media/07.png": "/static/media/07.44a9228394985d2da2bd.png",
+    "static/media/Summit-Title-recortado.png": "/static/media/Summit-Title-recortado.3593e48d74c9e58831d6.png",
     "static/media/11.png": "/static/media/11.49fd4af8d1984b614dbf.png",
     "static/media/meme-lagarto.png": "/static/media/meme-lagarto.646bf5aaa713894f290d.png",
     "static/media/10.png": "/static/media/10.b582e6b3852f3baa9d7f.png",
@@ -44,10 +44,10 @@
     "static/media/discord.svg": "/static/media/discord.92fae2d3e62d5c1ea29a8216237a6c21.svg",
     "static/media/twitter.svg": "/static/media/twitter.88145f5a5efc189af7c91e0ba0dede8e.svg",
     "main.d93c7405.css.map": "/static/css/main.d93c7405.css.map",
-    "main.c890104c.js.map": "/static/js/main.c890104c.js.map"
+    "main.82f1ac21.js.map": "/static/js/main.82f1ac21.js.map"
   },
   "entrypoints": [
     "static/css/main.d93c7405.css",
-    "static/js/main.c890104c.js"
+    "static/js/main.82f1ac21.js"
   ]
 }
